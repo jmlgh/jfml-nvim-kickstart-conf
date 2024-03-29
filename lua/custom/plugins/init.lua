@@ -2,4 +2,10 @@
 --  I promise not to create any merge conflicts in this directory :)
 --
 -- See the kickstart.nvim README for more information
-return {}
+return {
+  'nvim-neotest/nvim-nio',
+  'mfussenegger/nvim-dap',
+  'leoluz/nvim-dap-go',
+  'rcarriga/nvim-dap-ui',
+  'theHamsta/nvim-dap-virtual-text',
+}
